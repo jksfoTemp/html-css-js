@@ -1,0 +1,101 @@
+<div id="mainWrapper">
+  <div id="content" class="content">
+    <section id="linuxNotes" class="section" >
+      <h3>Source: LinuxFoundationX: LFS101x Introduction to Linux </h3>
+      <header>
+        <h1>Common Command Line Tasks</h1>
+        <p class="tagline"></p>
+      </header>
+      <nav class="nav">
+        <ul>
+          <li class="li">updatedb - reindex file system</li>
+          <li class="li">locate files example: locate g[a-z]??? # uses index</li>
+          <li class="li">find /usr -name gcc # recursive search</li>
+          <li class="li">find /usr -type d -name gcc</li>
+          <li class="li">find -type f -mtime 0 # all files in current directory modified today</li>
+          <li class="li">find -type  -\size 0 # all zero byte files</li>
+          <li class="li">cat #Used for viewing files that are not very long; it does not provide any scroll-back.</li>
+          <li class="li">tac #Used to look at a file backwards, one line at a time.</li>
+          <li class="li">less #Used to view larger files because it is a paging program; it pauses at each screenful of text, provides scroll-back capabilities, and lets you search and navigate within the file. Note: Use / to search for a pattern in the forward direction and ? for a pattern in the backward direction.</li>
+          <li class="li">tail #Used to print the last 10 lines of a file by default. You can change the number of lines by doing -n 15 or just -15 if you wanted to look at the last 15 lines instead of the default.</li>
+          <li class="li">head #The opposite of tail; by default it prints the first 10 lines of a file.</li>
+          <li class="li">touch #often used to create an empty file or set or update the access, change, and modify times of files</li>
+          <li class="li">mkdir /usr/sampdir # rm {dirName} # rm - rf {dirName} </li>
+          <li class="li">mv #Rename file or dir</li>
+          <li class="li">rm #Remove</li>
+          <li class="li">rm -f #Remove forcibly</li>
+          <li class="li">rm -i #Remove interactively</li>
+          <li class="li">rmdir #Remove empty dir</li>
+          <li class="li">rm -rf #Forcibly Remove dir recursively</li>
+          <li class="li">mv #Rename</li>
+          <li class="li">pwd == where are we?</li>
+        </ul>
+      </nav>
+      <header>
+        <h1>Help Options</h1>
+        <p class="tagline"></p>
+      </header>
+      <nav class="nav">
+        <ul>
+          <li class="li">man, info, help</li>
+        </ul>
+      </nav>
+      <header>
+        <h1>File Commands</h1>
+        <p class="tagline"></p>
+      </header>
+      <nav class="nav">
+        <ul>
+          <li class="li">rsync #is more efficient because it checks if the file being copied already exists </li>
+          <li class="li">can also be used to copy files from one machine to another</li>
+          <li class="li">test your rsync command using the -dry-run option</li>
+          <li class="li">gzip	The most frequently used Linux compression utility</li>
+          <li class="li">bzip2	Produces files significantly smaller than those produced by gzip</li>
+          <li class="li">xz	The most space efficient compression utility used in Linux</li>
+          <li class="li">zip	Is often required to examine and decompress archives from other operating systems</li>
+          <li class="li">tar utility is often used to group files in an archive and then compress the whole archive at once</li>
+        </ul>
+      </nav>
+      <header>
+        <h1>User Environment</h1>
+        <p class="tagline"></p>
+      </header>
+      <nav class="nav">
+        <ul>
+          <li class="li">who, whoami, who -a, id</li>
+          <li class="li">set, env, export</li>
+          <li class="li">cd == cd $HOME == cd ~</li>
+          <li class="li">export PATH=$HOME/bin:$PATH # Modify the path</li>
+          <li class="li">PS1 # Change the prompt</li>
+          <li class="li">history # View history of all commands</li>
+          <li class="li">!! to exec previous command, [ctrl] R to search backwards</li>
+          <li class="li">!	Start a history substitution</li>
+          <li class="li">!$	Refer to the last argument in a line</li>
+          <li class="li">!n	Refer to the nth command line</li>
+          <li class="li">!string	Refer to the most recent command starting with string</li>
+          <li class="li">CTRL-L	Clears the screen</li>
+          <li class="li">CTRL-D	Exits the current shell</li>
+          <li class="li">CTRL-Z	Puts the current process into suspended background</li>
+          <li class="li">CTRL-C	Kills the current process</li>
+          <li class="li">CTRL-H	Works the same as backspace</li>
+          <li class="li">CTRL-A	Goes to the beginning of the line</li>
+          <li class="li">CTRL-W	Deletes the word before the cursor</li>
+          <li class="li">CTRL-U	Deletes the entire line</li>
+          <li class="li">Tab	Auto-completes files, directories, and binaries</li>
+          <li class="li">chown	Used to change user ownership of a file or directory</li>
+          <li class="li">chgrp	Used to change group ownership</li>
+          <li class="li">chmod	Used to change the permissions on the file which can be done separately for owner, group and the rest of the world (often named as other.)</li>
+        </ul>
+      </nav>
+      <header>
+        <h1>File Editing</h1>
+      </header>
+      <nav class="nav">
+        <ul>
+          <li class="li">nano and gedit, > to create, >> to append</li>
+          <li class="li"></li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+</div>

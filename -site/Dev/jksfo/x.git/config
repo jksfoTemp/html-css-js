@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "jksfo"]
+	url = https://github.com/jksfoTemp
+	fetch = +refs/heads/*:refs/remotes/jksfo/*
+[remote "origin"]
+	url = https://github.com/jksfoTemp/jksfo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

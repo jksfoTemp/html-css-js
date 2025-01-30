@@ -1,0 +1,465 @@
+<div class="row ">
+  <div class="col-md-12 center ">
+    <div id="mapholder" class="shadow90 centerDiv mainView">
+      <section id="bookmarks" class="section">
+        <header>
+          <h1>Bookmarks</h1>
+          <p class="tagline"></p>
+        </header>
+        <nav class="nav">
+          <p></p>
+          <a href="https://ide.c9.io/jksfotemp/html5">
+          Cloud9</a>
+          <p></p>
+          <a href="https://html5-c9-jksfotemp.c9.io/default.14.html">
+          Dev - HTML5</a>
+          <p></p>
+          <a href="https://github.com/jksfo">
+          GitHub</a>
+          <p></p>
+          <a href="https://github.com/jksfo">
+          GitHub Sandbox (rather messy)</a>
+          <p></p>
+          <a href="https://www.blogger.com/blogger.g?blogID=3639051028270991313#allposts">
+          joesKB - A Collection of Various Tips-N-Tricks (CS)</a>
+        </nav>
+      </section>
+      <section id="tools" class="section">
+        <header>
+          <h1>Tools</h1>
+          <p class="tagline"></p>
+        </header>
+        <nav class="nav">
+          <p></p>
+          <a href="http://jsfiddle.net/">
+          JSFiddle</a>
+          <p></p>
+          <a href="http://jigsaw.w3.org/css-validator/">
+          CSS Validation</a>
+          <p></p>
+          <a href="http://validator.w3.org/">
+          HTML5 Validation</a>
+          <p></p>
+          <a href="http://www.sublimetext.com/">
+          Sublime</a>
+          <p></p>
+          <a href="http://extensions.libreoffice.org/extension-center?">
+          Libre Office - Extensions</a>
+          <p></p>
+          <a href="http://afarkas.github.io/webshim/demos/">
+          HTML5 WebShim - Shims and Polyfills</a>
+          <p></p>
+          <a href="http://tjvantoll.com/speaking/slides/Constraint-Validation/San-Francisco/">
+          HTML5 Contraint Validation</a>
+          <p></p>
+          <a href="https://developers.google.com/web/starter-kit/">
+          Google Web Starter Kit</a>
+          <p></p>
+          <a href="https://www.firebase.com/how-it-works.html">
+          Firebase - Build realtime mobile and web apps in minutes</a>
+          <p></p>
+          <a href="https://devcenter.heroku.com/articles/quickstart">
+          Heroku - Quickstart</a>
+          <p></p>
+          <a href="http://compileonline.com/">
+          Compile Online - Online Compilation Engine</a>
+          <p></p>
+          <a href="http://www.efytimes.com/e1/fullnews.asp?edid=129311">
+          53 Cheatsheets For Programmers And Developers In Alphabetical Order!</a>
+          <p></p>
+          <a href="http://svg-edit.googlecode.com/svn/branches/2.6/editor/svg-editor.html">
+          SVG Edit</a>
+          <p></p>
+          <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_default">
+          Fiddle for CSS3</a>
+          <p></p>
+          <a href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_svg_ex">
+          Fiddle for SVG</a>
+          <p></p>
+          <a href="https://asafaweb.com/">
+          A Safa Web - ASP.Net Site Security Analyser</a>
+          <p></p>
+          <a href="https://tails.boum.org/about/index.en.html">
+          Tails - An OS for Anonymous Web Browsing</a>
+          <p></p>
+          <a href="https://hackhands.com/#/">
+          Hack Hands - Online Coding Assistance</a>
+          <p></p>
+          <a href="https://www.google.com/fonts#UsePlace:use/Collection:Special+Elite">
+          Google Fonts - Typewriter</a>
+          <p></p>
+          <a href="http://standardmarkdown.com/">
+          Standard Mardown</a>
+          <p></p>
+          <a href="https://github.com/michelf/mdtest/">
+          Markdown Test - MDTest</a>
+          <p></p>
+          <a href="http://johnmacfarlane.net/babelmark2/faq.html">
+          Babelmark2</a>
+        </nav>
+      </section>
+      <section id="cheatSheets" class="section">
+        <header>
+          <h1>Cheat Sheets</h1>
+          <p class="tagline"></p>
+        </header>
+        <nav class="nav">
+          <p></p>
+          <a href="http://rogerdudler.github.io/git-guide/">
+          Git - the Simple Guide</a>
+          <p></p>
+          <a href="http://html5pattern.com/">
+          RegEx - HTML5 Pattern Matching</a>
+          <p></p>
+          <a href="/training/html5-cheat-sheet.pdf">
+          HTML5 Cheat Sheet</a>
+          <p></p>
+          <a href="/training/CSS2-Help-Sheet.pdf">
+          CSS2 Cheat Sheet</a>
+          <p></p>
+          <a href="/training/CSS3-Help-Sheet1.pdf">
+          CSS3 Cheat Sheet</a>
+          <p></p>
+          <a href="/training/GettingStartedWithApacheHadoop.pdf">
+          Getting Started with Apache and Hadoop</a>
+          <p></p>
+          <a href="./training/ApacheHadoopCheatSheet.pdf">
+          Apache Hadoop Cheat Sheet</a>
+          <p></p>
+          <a href="https://daringfireball.net/projects/markdown/syntax">
+          Markdown - Cheat Sheet</a>
+          <p></p>
+          <a href="http://bullium.com/support/vim.html">
+          Vim - Cheat Sheet</a>
+          <p></p>
+          <a href="https://delicious.com/html5rick">
+          HTML5rick - Link Collection</a>
+        </nav>
+      </section>
+      <section id="training" class="section">
+        <header>
+          <h1>Training - Resources</h1>
+          <p class="tagline"></p>
+        </header>
+        <nav class="nav">
+          <p></p>
+          <a href="http://www.coreservlets.com/android-tutorial/">
+          Android Programming Tutorials</a>
+          <p></p>
+          <a href="http://developer.android.com/training/basics/firstapp/index.html">
+          Android Basics</a>
+          <p></p>
+          <a href="https://developers.google.com/web/fundamentals/getting-started/">
+          Google Web Dev Guide</a>
+          <p></p>
+          <a href="https://www.youtube.com/watch?v=OrIFaWJ9Glo">
+          Single Page Web Applications: JavaScript End-to-End (The Hard Stuff)</a>
+          <p></p>
+          <a href="http://www.codeproject.com/Articles/771455/Diving-in-OOP-Day-Polymorphism-and-Inheritance-Ear">
+          C# - Diving in OOP (Day 1) : Polymorphism and Inheritance (Early Binding/Compile Time Polymorphism)</a>
+          <p></p>
+          <a href="http://pixelhandler.com/posts/develop-a-restful-api-using-nodejs-with-express-and-mongoose">
+          Develop a RESTful API Using Node.js With Express and Mongoose</a>
+          <p></p>
+          <a href="https://www.destroyallsoftware.com/talks/wat">
+          WAT - Destroy All Software Screencasts</a>
+          <p></p>
+          <a href="http://www.nodebeginner.org/#javascript-and-nodejs">
+          The Node Beginner Book</a>
+          <p></p>
+          <a href="https://docs.python.org/2/contents.html">
+          Python Intro</a>
+          <p></p>
+          <a href="https://docs.python.org/2/contents.html">
+          Python Documentation</a>
+          <p></p>
+          <a href="https://docs.python.org/2/tutorial/index.html">
+          Python Tutorial</a>
+          <p></p>
+          <a href="http://fsharpforfunandprofit.com/">
+          Functional Programming - F# for fun and profit; Are you an experienced C#, Java or Python developer?</a>
+          <p></p>
+          <a href="https://training.github.com/courses/index.html">
+          GitHub Training</a>
+          <p></p>
+          <a href="http://www.allanalytics.com/lecture-calendar.asp">
+          All Analytics - Data Management, Business Intelligence and Analytics</a>
+          <p></p>
+          <a href="https://github.com/joyent/node/wiki/Installation">
+          Building and Installing Node.js</a>
+          <p></p>
+          <a href="http://blogs.msdn.com/b/mssmallbiz/archive/2014/07/07/largest-collection-of-free-microsoft-ebooks-ever-including-windows-8-1-windows-8-windows-7-office-2013-office-365-office-2010-sharepoint-2013-dynamics-crm-powershell-exchange-server-lync-2013-system-center-azure-cloud-sql.aspx">
+          M$ E-Books</a>
+          <p></p>
+          <a href="http://www.microsoftvirtualacademy.com/ebooks">
+          M$ E-Books 2</a>
+          <p></p>
+          <a href="http://eloquentjavascript.net/2nd_edition/">
+          Eloquent Javascript</a>
+          <p></p>
+          <a href="http://www.youtube.com/watch?v=YXVoqJEwqoQ">
+          Bootstrap Tutorial</a>
+          <p></p>
+          <a href="http://getbootstrap.com/getting-started/">
+          Bootstrap - Getting Started</a>
+          <p></p>
+          <a href="http://www.developer.com/mgmt/three-types-of-interview-questions-software-developers-should-expect.html">
+          Developer Interview Questions</a>
+          <p></p>
+          <a href="https://delicious.com/HTML5Rick">
+          HTML5Rick - HTML5 Resources</a>
+          <p></p>
+          <a href="http://www.trypython.org/">
+          Try Python - Silver Light</a>
+          <p></p>
+          <a href="http://teachmetocode.com/">
+          Ruby Podcasts</a>
+          <p></p>
+          <a href="http://developer.android.com/tools/workflow/index.html">
+          Android Development and SDK</a>
+          <p></p>
+          <a href="http://readwrite.com/2014/04/04/winjs-how-to-build-app-html5-10-steps#awesm=~oAYSjiqbqygeys">
+          M$ HTML5 Tutorial</a>
+          <p></p>
+          <a href="http://www.zdnet.com/blog/small-business-matters/14-diy-mobile-app-development-resources-for-small-businesses/2288">
+          Code-free Mobile App Resources</a>
+          <p></p>
+          <a href="https://nodejstools.codeplex.com/">
+          Node.js Tools for VS</a>
+          <p></p>
+          <a href="https://nodejstools.codeplex.com/">
+          Node.js Tools for VS</a>
+          <p></p>
+          <a href="http://pytools.codeplex.com/">
+          Python Tools for VS</a>
+          <p></p>
+          <a href="http://visualstudiogallery.msdn.microsoft.com/6eb51f05-ef01-4513-ac83-4c5f50c95fb5">
+          PHP Tools for VS</a>
+          <p></p>
+          <a href="http://channel9.msdn.com/Events/Build/2014/3-604">
+          Building Modern Web Applications with Visual Studio and Web Essentials</a>
+          <p></p>
+          <a href="http://www.asp.net/web-api">
+          Learn About ASP.NET Web API</a>
+          <p></p>
+          <a href="http://madskristensen.net/post/visual-studio-extensions-for-web-developers">
+          Visual Studio Extensions for Web Developers</a>
+          <p></p>
+          <a href="http://madskristensen.net/post/visual-studio-extensions-for-web-developers">
+          Visual Studio Extensions for Web Developers</a>
+          <p></p>
+          <a href="http://www.cyberciti.biz/faq/howto-use-cat-command-in-unix-linux-shell-script/">
+          Linux - Using Cat</a>
+          <p></p>
+          <a href="https://www.youtube.com/watch?v=WuiHuZq_cg4">
+          Angular.js Tutorial</a>
+          <p></p>
+          <a href="http://tutorialzine.com/2013/08/learn-angularjs-5-examples/">
+          Angular.js - Practical Examples</a>
+          <p></p>
+          <a href="http://www.sitepoint.com/getting-started-go/">
+          Getting Started with Go</a>
+          <p></p>
+          <a href="http://teamtreehouse.com/join/first-week-free?utm_source=carbonads-dev&amp;utm_content=newad2---livedreams&amp;cid=1312">
+          Treehouse - Web Dev Training</a>
+          <p></p>
+          <a href="http://pluralsight.com/training">
+          Plural Sight</a>
+          <p></p>
+          <a href="https://developers.google.com/speed/libraries/devguide#jquery">
+          Google Hosted Libraries</a>
+          <p></p>
+          <a href="https://www.youtube.com/watch?v=YXVoqJEwqoQ">
+          Bootstrap Tutorials</a>
+          <p></p>
+          <a href="https://developers.google.com/web/fundamentals/">
+          Google Web Fundamentals</a>
+          <p></p>
+          <a href="http://www.jeremybytes.com/Downloads/Slides-DesignPatterns.pdf">
+          Design Patterns - Jeremy Clark</a>
+          <p></p>
+          <a href="http://www.jeremybytes.com/Downloads/Slides-DesignPatterns.pdf">
+          Design Patterns - Jeremy Clark</a>
+          <p></p>
+          <a href="http://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf">
+          Web API Design - Apigee</a>
+          <p></p>
+          <a href="http://www.jeremybytes.com/Downloads/AbstractionWithInterfaces.pdf">
+          IEnumerable, ISaveable, IDontGetIt: Interfaces in .NET</a>
+          <p></p>
+          <a href="http://www.scoop.it/t/asp-net-mvc-beginner">
+          ASP.Net MVC - Collection of Tutorials</a>
+          <p></p>
+          <a href="http://www.codeproject.com/Articles/775290/ASP-NET-MVC-Quickstart">
+          ASP.NET MVC-Quickstart</a>
+          <p></p>
+          <a href="http://www.codeproject.com/Articles/79577/A-Simple-Tutorial-on-Developing-ASP-NET-Applicatio">
+          A Simple Tutorial on Developing ASP.NET Applications in MVC Pattern</a>
+          <p></p>
+          <a href="https://www.edx.org/course/delftx/delftx-fp101x-introduction-functional-2126#main-content">
+          Introduction to Functional Programming</a>
+          <p></p>
+          <a href="http://javarevisited.blogspot.ca/2014/05/10-articles-every-programmer-must-read.html">
+          10 Articles Every Programmer Must Read</a>
+          <p></p>
+          <a href="http://pluralsight.com/training/courses/TableOfContents?courseName=smash-into-vim&highlight=andrew-stewart_smash-into-vim-m01!andrew-stewart_smash-into-vim-m02">
+          PluralSight - Smash Into Vim</a>
+          <p></p>
+          <a href="https://www.youtube.com/watch?v=S9sktFzL3tQ">
+          Wait, Chrome DevTools can do That?</a>
+          <p></p>
+          <a href="http://pluralsight.com/training/courses/TableOfContents?courseName=git-fundamentals&amp;highlight=james-kovacs_git-fundamentals-m0*3,7,4,6,8,5,0,1,2,9!james-kovacs_git-fundamentals-m1!james-kovacs_git-fundamentals-m2*4!james-kovacs_git-fundamentals-m3#git-fundamentals-m0">
+          Introduction to Git</a>
+          <p></p>
+          <a href="https://www.youtube.com/watch?v=ogXYlXjkSNo&feature=youtu.be">
+          SF HTML5 Live Code - AngularJS with Jeff Carpenter</a>
+          <p></p>
+          <a href="http://www.codeproject.com/Articles/207797/Learn-MVC-Model-View-Controller-step-by-step-in">
+          Learn MVC (Model View Controller) step by step in 7 days – Day 1</a>
+          <p></p>
+          <a href="http://www.codeproject.com/Articles/556995/Model-view-controller-MVC-Interview-questions-and">
+          MVC interview questions</a>
+          <p></p>
+          <a href="https://www.youtube.com/watch?v=g0aVNUWqt_o">
+          Bootstrap 3 Tutorial 1 - Build a Responsive HTML5 Site from Scratch or Using an Example Template</a>
+          <p></p>
+          <a href="https://www.youtube.com/watch?v=k0f9pC8b3wM">
+          Learn HTML5 Easily in 6 hours</a>
+          <p></p>
+          <a href="https://www.youtube.com/watch?v=RYxZpGfSEBo&list=TLy8dTyimRmLMEOIlq93qRj2GGLB-m--bw">
+          Build a Store Locator App in 40 min with HTML5, PhoneGap and API-based backend</a>
+          <p></p>
+          <a href="https://www.udemy.com/learn-php-and-mysql-development-from-scratch/?couponCode=kiran80">
+          Learn PHP and MySQL Development From Scratch</a>
+          <p></p>
+          <a href="https://www.youtube.com/watch?v=ktwJ-EDiZoU">
+          The Breakpoint Ep. 1: Chrome DevTools with Addy Osmani and Paul Lewis; Weekly Podcast</a>
+          <p></p>
+          <a href="http://docs.montagestudio.com/montage-studio/tutorial-simple-to-do.html">
+          Montage Studio - HTML5 IDE and Tools</a>
+          <p></p>
+          <a href="http://www.creativebloq.com/design/free-ebooks-designers-7133700?scid=social_20140523_24568896">
+          12 Free E-Books for Designers</a>
+          <p></p>
+          <a href="http://www.sqlservercentral.com/articles/server/94235/">
+          A Data Mining Introduction</a>
+          <p></p>
+          <a href="http://golang.org/doc/">
+          The Go Programming Language</a>
+          <p></p>
+          <a href="https://buckysroom.org/videos.php">
+          Bucky's Room - Tutorial Collection</a>
+          <p></p>
+          <a href="https://devcenter.heroku.com/">
+          Heroku - Getting Started</a>
+          <p></p>
+          <a href="http://sourceforge.net/projects/uncrustify/">
+          Uncrustify Code Beautifier</a>
+          <p></p>
+          <a href="http://html5devconf.com/videos.html">
+          HTML5 Developers Conference - Videos</a>
+          <p></p>
+          <a href="http://www.fromdev.com/2013/07/Android-Tutorials.html">
+          50+ Best Free Android Tutorials</a>
+          <p></p>
+          <a href="http://code.tutsplus.com/tutorials/the-best-way-to-learn-ruby-on-rails--net-21820">
+          The Best Way to Learn Ruby on Rails</a>
+          <p></p>
+          <a href="http://code.tutsplus.com/tutorials/the-best-way-to-learn-ruby-on-rails--net-21820">
+          The Best Way to Learn Ruby on Rails</a>
+          <p></p>
+          <a href="http://stackoverflow.com/questions/14127703/asynchronous-javascript-callbacks-vs-deferred-promise">
+          Asynchronous JavaScript - Callbacks vs Deferred/Promise [duplicate]</a>
+          <p></p>
+          <a href="http://www.w3schools.com/css/css3_animations.asp">
+          CSS3 Animations</a>
+          <p></p>
+          <a href="http://www.w3schools.com/html/html5_svg.asp">
+          SVG Animations</a>
+          <p></p>
+          <a href="http://www.youtube.com/watch?v=zpC7b1ZJvvM">
+          SVG Edit Tutorial</a>
+          <p></p>
+          <a href="http://www.impressivewebs.com/mixing-css3-keyframe-animations/">
+          Mixing CSS3 Prefixed Properties with Keyframe Animations</a>
+          <p></p>
+          <a href="http://code.tutsplus.com/tutorials/learning-serverside-javascript-with-node-js--net-10044">
+          Learning Server-Side JavaScript with Node.js</a>
+          <p></p>
+          <a href="http://www.html5rocks.com/en/tutorials/es6/promises/">
+          JavaScript Promises</a>
+          <p></p>
+          <a href="https://buckysroom.org/videos.php?cat=6">
+          Android Application Development</a>
+          <p></p>
+          <a href="http://ruby.bastardsbook.com/chapters/web-scraping/">
+          The Bastard's Book of Ruby - Web Scraping</a>
+          <p></p>
+          <a href="http://lepidllama.net/blog/how-to-push-an-existing-cloud9-project-to-github/">
+          How to push an existing Cloud9 project to GitHub</a>
+          <p></p>
+          <a href="http://askubuntu.com/questions/143107/how-to-extract-archives-to-file-system-in-terminal">
+          Linux - Ubuntu: How to extract archives to file system in terminal?</a>
+          <p></p>
+          <a href="http://www.webupd8.org/2013/10/8-things-to-do-after-installing-ubuntu.html">
+          Linux - Ubuntu: 8 THINGS TO DO AFTER INSTALLING UBUNTU 13.10 (SAUCY SALAMANDER)</a>
+          <p></p>
+          <a href="http://askubuntu.com/questions/62833/how-do-i-change-the-default-session-for-when-using-auto-logins">
+          Linux - Ubuntu: How do I change the default session for when using auto-logins?</a>
+          <p></p>
+          <a href="http://www.cnet.com/how-to/home-networking-explained-part-9-access-your-home-computer-remotely">
+          Home networking explained, Part 9: Access your home computer remotely</a>
+          <p></p>
+          <a href="https://docs.google.com/spreadsheet/lv?key=0Ah9uZ6vv_ibUdDJzQ1NTS3lWUWg4WkYyUlQxOUZPVlE#gid=1">
+          List of all SFHTML5 presentations and videos (public) bit.ly/sfhtml5videos : sfhtml5 presentations</a>
+          <p></p>
+          <a href="/training/BigDataandHadoopGuide.pdf">
+          Big Data and Hadoop Guide</a>
+        </nav>
+      </section>
+      <section id="jobs" class="section">
+        <header>
+          <h1>Job Stuffs</h1>
+          <p class="tagline"></p>
+        </header>
+        <nav class="nav">
+          <p></p>
+          <a href="http://www.forbes.com/sites/cherylsnappconner/2014/01/25/the-important-linkedin-settings-most-people-miss">
+          The LinkedIn Setting Mistakes Most People Still Make</a>
+          <p></p>
+          <a href="https://angel.co/san-francisco/jobs">
+          San Francisco Startup Jobs</a>
+          <p></p>
+          <a href="https://www.startupers.com/">
+          Startup Jobs</a>
+          <p></p>
+          <a href="https://www.whitetruffle.com/candidates">
+          White Truffle</a>
+          <p></p>
+          <a href="http://www.toptal.com/">
+          Toptal</a>
+          <p></p>
+          <a href="http://news.dice.com/2014/03/20/4-interview-questions-newcomers-hadoop/">
+          Hadoop Interview Questions</a>
+          <p></p>
+          <a href="http://simpleprogrammer.com/2014/07/07/software-developers-really-need-degrees/">
+          Do Devs Need Degrees? Online Courseware</a>
+        </nav>
+      </section>
+      <section id="random" class="section">
+        <header>
+          <h1>Random</h1>
+          <p class="tagline"></p>
+        </header>
+        <nav class="nav">
+          <p></p>
+          <a href="http://en.wikipedia.org/wiki/Ludovico_Einaudi">
+          Ludovico Einaudi</a>
+          <p></p>
+          <a href="http://www.pandora.com/station/play/2119815864043973547">
+          Pandorra</a>
+        </nav>
+      </section>
+    </div>
+  </div>
+</div>

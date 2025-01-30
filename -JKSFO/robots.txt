@@ -1,0 +1,7 @@
+# robots.txt for http://www.jksfo.com/
+# http://www.robotstxt.org/orig.html#code
+
+User-agent: *
+Disallow: /dev/ # This is an infinite virtual URL space
+Disallow: /tmp/ # these will soon disappear
+Disallow: /foo.html

@@ -1,0 +1,44 @@
+body{
+    color: yellow;
+}
+
+#foo {
+    color: red;
+}
+
+.bar {
+    color: pink;
+}
+
+p.bar {
+    color: green;
+}
+
+/* Attribute selectors */
+p[name] {
+    color: purple;
+}
+    
+p[name="wilma"] {
+    color: blue;
+}
+
+/* regex */    
+/* contains */
+p[name*="barney"] {
+    color: brown;
+}
+
+/* begins with */
+p[name^="barney"] {
+    color: grey;
+}
+    
+/* ends with  */
+p[name$="barney"] {
+    color: orange;
+}
+    
+    
+
+

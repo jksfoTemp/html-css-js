@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+#skin {
+    width: 700px;
+    height: 400px;
+    margin: 10px auto;
+    padding: 5px;
+    background: #FFFFB2;
+    border: 2px solid #636434;
+    border-radius: 8px;
+}
+
+nav {
+    margin: 5px;
+}
+
+#buttons{
+    float: left;
+    width: 60px;
+    height: 22px;
+    background: #FFFFB2;
+    border-radius: 4px;
+    margin-right: 2px;
+}
+
+
+#playButton, #volumeDown, #volumeUp {
+    width: 50px;
+    border-radius: 4px;
+    
+    /*background: green;*/
+}
+
+
+#defaultBar {
+    position: relative;
+    float: left;
+    width: 485px;
+    height: 14px;
+    padding: 4px;
+    border: 1px solid #636434;
+    background: #BFBF85;
+}
+
+#progressBar {
+    position: absolute; 
+    width: 0px;
+    height: 14px;
+    background: #A6A757;
+}

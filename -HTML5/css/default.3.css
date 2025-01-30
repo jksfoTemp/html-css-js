@@ -1,0 +1,22 @@
+
+/* affect immediate childern */
+div > p {
+    color: green;
+    }
+
+/* BAD - affect immediate childern, not grandchildren */
+body > p {
+    color: purple;
+    }
+
+/* affect the second element (and on) when it immediately follows the first, must have same parent */
+p.child1 + p {
+    color: gray;
+    }
+
+/* affect the second element (and on) when it immediately follows the first, must have same parent
+    but can have elements that interrupt it */
+p.child3 ~ p {
+    color: gray;
+    }
+

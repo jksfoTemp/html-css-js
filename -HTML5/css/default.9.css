@@ -1,0 +1,44 @@
+body  {
+    text-align: center;
+}
+
+#box1 {
+    display: block;
+    width: 500px;
+    margin: 150px auto;
+    padding: 15px;
+    text-align: center;
+    border: 7px solid blue;
+    background: yellow; 
+    -webkit-transition: -webkit-transform 2s;
+}
+
+#text{
+    font: bold 30px Century Gothic;
+    text-shadow: rgb(110, 110, 110) 3px 3px 5px ;
+}
+
+#box1:hover{
+    -webkit-transform:rotate(66deg);
+    color:orange;
+}
+
+#box2{
+    display: block;
+    margin: 150px auto;
+    color: blue;
+    -webkit-border-radius:10px;
+    opacity: 0.6;
+    background:red;
+    width: 250px;
+    height:75px;
+    -webkit-transition:-webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+}
+
+#box2:hover{
+    -webkit-transform: rotate(360deg);
+    opacity: 1;
+    background: #1ec7e6;
+    width: 450px;
+    height: 210px;
+}

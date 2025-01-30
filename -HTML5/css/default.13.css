@@ -1,0 +1,16 @@
+body {
+    text-align: left;
+    background: white;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+#canvas1, #canvas2 {
+    width: 400px;
+    height: 200px;
+    background: lightgrey;
+    border: 1px solid grey;
+}
+

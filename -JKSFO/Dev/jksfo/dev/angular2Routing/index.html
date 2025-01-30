@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Example</title>
+
+  <base href="/dev/angular2Routing/"> </base>
+  
+  <!-- https://scotch.io/quick-tips/pretty-urls-in-angularjs-removing-the-hashtag -->  
+    
+  </head>
+  <body ng-app="ViewExample">
+ 	<p>See info about <a href="#dogs">dogs</a> or 
+	<a href="#cats">cats</a></p>
+	<div ng-view>
+	</div>
+	<script src="js/angular.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script>
+
+  angular.module('ViewExample', ['ngRoute'])
+    
+    .config(function($routeProvider, $locationProvider) {
+
+        console.debug($routeProvider);
+
+        $routeProvider
+            .when('/dog', {
+                templateUrl : 'partials/dog.html',
+                // controller : mainController
+            })
+            .when('/cat', {
+                templateUrl : 'partials/cat.html',
+                // controller : mainController
+            })
+            .otherwise({
+                templateUrl : 'partials/dog.html',
+                // controller : mainController
+            });
+    
+        // use the HTML5 History API
+        $locationProvider.html5Mode(true);
+    });
+  
+  /* works, but with hash tags   
+	angular.module('ViewExample', ['ngRoute'])
+		.config( ['$routeProvider', function($routeProvider) {
+			$routeProvider
+				.when('/dogs', {
+					templateUrl: 'partials/dog.html'
+				})
+				.when('/cats', {
+					templateUrl: 'partials/cat.html'
+				})
+				.otherwise({
+					redirectTo: '/dogs'
+				});
+  	}]);	
+  */
+
+	</script>
+  </body>
+</html>

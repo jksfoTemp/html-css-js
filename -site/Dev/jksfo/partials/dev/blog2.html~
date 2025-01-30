@@ -1,0 +1,8 @@
+<div class="row ">
+	<div class="col-md-12 center ">
+    <!-- <button onclick="getLocation()">Try It</button> -->
+    <div id="demo" class=""></div>
+    <h3>You are here:</h3> 
+    <div id="mapholder" class="map centerDiv mainView"></div>
+  </div>
+</div>

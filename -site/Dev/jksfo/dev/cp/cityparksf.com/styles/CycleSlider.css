@@ -1,0 +1,18 @@
+#slideshow {
+  list-style: none;
+  margin: 0;
+}
+#slideshow .cycle-slide {
+  position: relative;
+}
+#slideshow .caption {
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+}

@@ -1,0 +1,55 @@
+#parent {
+    border: 2px solid blue;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    /* -webkit-box-direction: reverse; */
+    width: 700px;
+    /* -webkit-box-pack: center; */ /* start end center justified */ 
+    height: 300px;
+    -webkit-box-align: center; /* vertically center, default is stretch */ 
+}
+
+#child1 {
+    border: 2px solid red;
+    background: green;
+    padding: 20px;
+    margin: 10px;
+    -webkit-box-ordinal-group: 1;
+    /* width: 60px; */ 
+    -webkit-box-flex: 1.5; 
+    height: 100px;
+}
+
+#child2 {
+    border: 2px solid red;
+    background: yellow;
+    padding: 20px;
+    margin: 10px;
+    -webkit-box-ordinal-group: 2;
+    /* width: 60px; */ 
+    -webkit-box-flex: 3; 
+    height: 100px;
+}
+
+#child3 {
+    border: 2px solid red;
+    background: red;
+    padding: 20px;
+    margin: 10px;
+    -webkit-box-ordinal-group: 3;
+    /* width: 60px; */ 
+    -webkit-box-flex: 0.1; 
+    height: 100px;
+}
+
+#child4 {
+    border: 2px solid red;
+    background: orange;
+    padding: 20px;
+    margin: 10px;
+    -webkit-box-ordinal-group: 4;
+    /* width: 60px; */ 
+    -webkit-box-flex: 1; 
+    height: 100px;
+}
+

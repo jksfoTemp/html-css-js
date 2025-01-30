@@ -1,0 +1,80 @@
+/*
+    Note CSS reset file
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial;
+    color: blue;
+    /* body style="background-image:url(BrokenWindows.png)" */
+}
+
+hr {
+    height: 1px;
+}
+
+h1 {
+    color: red;
+}
+
+#background {
+    background : #000000 url("http://pascocountyflattorney.com/wp-content/uploads/2012/07/tokyo-blue-background-4547.jpg") no-repeat bottom left;
+    background-size: 100% 100%;
+    min-height:100%;
+}
+
+#mainWrapper {
+    top: 0px;
+    left: 0px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+
+    /* background: #FFFFFF  url('BrokenWindows.png') no-repeat bottom left; */ 
+    background: #FFFFFF  url("./images/smiley-face.jpg") no-repeat top center;
+
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    height: auto !important;
+    min-height:100%;
+}
+
+#content{
+
+    margin: 20px;
+    padding: 20px;
+    /*
+    background: url('BrokenWindows.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+    /* border: 2px solid blue; color: blue; */ 
+
+
+    /* background: url("./images/BrokenWindows.png");
+    / *no-repeat center center fixed;
+    / *
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    */
+    /* background-size: cover; */ 
+}
+
+.section {
+    padding-bottom: 20px;
+}
+
+.nav {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.li {
+    padding-top: 4px;
+}
+

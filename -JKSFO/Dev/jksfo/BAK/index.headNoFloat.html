@@ -1,0 +1,133 @@
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="EN-US" > <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="EN-US" > <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="EN-US" > <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<!DOCTYPE html>
+<html class="no-js"
+      lang="EN-US"
+      xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" content="Software Engineer, Web Development, Database Development"/>
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge,chrome=1" />
+  <meta name="description"
+        content="" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1" />
+  <base href="/" />
+
+  <title>jksfo.com</title>
+
+  <link rel="icon"
+        href="favicon.ico?v=4"
+        type="image/x-icon" />
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
+        rel="stylesheet"
+        type="text/css" />
+  <link rel="stylesheet"
+        href="css/main.css"
+        type="text/css" />
+
+  <script src="//ajax.microsoft.com/ajax/jQuery/jquery-2.1.3.min.js"
+          type="text/javascript">
+  </script>
+  
+  <script src=
+    "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"
+        type="text/javascript">
+  </script>
+
+  <script src=
+    "//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.js"
+         type="text/javascript">
+  </script>
+
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"
+        type="text/javascript">
+	</script>
+
+  <script src="https://code.angularjs.org/1.2.16/angular-route.js"
+        type="text/javascript">
+  </script>
+
+  <script src=
+  "//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js"
+        type="text/javascript">
+  </script>
+
+  <script src="js/main6.js"
+        type="text/javascript">
+  </script>
+</head>
+
+<body ng-app="jksfoApp">
+  <!--[if lt IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="container-fluid navbar-inverse">
+    <!-- Brand and toggle get grouped for better mobile display -->a
+
+    <div class="navbar-header ">
+      <button type="button"
+           class="navbar-toggle"
+           data-toggle="collapse"
+           data-target="#bs-navbar-collapse-1"><span class="sr-only">Toggle navigation</span></button> 
+
+      <ul class="nav navbar-nav navbar-left ">
+        <li class="dropdown ">
+          <a href=""
+              class="dropdown-toggle"
+              data-toggle="dropdown">Resources</a>
+
+          <ul class="dropdown-menu " >
+            <li ><a href="#home">Home</a></li>
+            <li class="divider"></li>
+				<li><a href="#about">About</a></li>
+            <li><a href="#other">Other</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div><!-- Main jumbotron -->
+
+  <div class="jumbotron bkImg container">
+    <h1><a href="#home"
+       alt="home"
+       class="noDec mush4">jksfo.com</a></h1>
+
+    <p>&nbsp;</p>
+  </div>
+
+  <div class="container vSpacer" id="main">
+      {{ content }} 
+
+    <div ng-view="" class="xmainView" ></div>
+  </div>
+
+  <div class=
+  "navbar navbar-default navbar-fixed-bottom text-center container text-center ">
+  <p class=
+  "text-muted navbar-text text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    &#169; 2012-2015 jksfo.com All Rights Reserved</p>
+  </div><!-- /container -->
+  <!--    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> --><!--    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> --><!--    <script src="js/vendor/bootstrap.min.js"></script> --><!-- <script src="js/xmain.js"></script> -->
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. - - >
+                        <script>
+                                (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                                        function(){(b[l].q=b[l].q||[]).push(arguments)
+                                        });
+                                        b[l].l=+new Date;
+                                        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+                                        e.src='//www.google-analytics.com/analytics.js';
+                                        r.parentNode.insertBefore(e,r)
+                                }
+                                (window,document,'script','ga'));
+                                ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+                        </script>
+                        -->
+</body>
+</html>

@@ -1,0 +1,5 @@
+<!-- about.html --> 
+  <div >
+    <h1>about Page</h1>
+      <p>{{ content }}</p>
+  </div>

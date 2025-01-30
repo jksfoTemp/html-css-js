@@ -1,0 +1,4 @@
+# No instances of "citi" in either site (just this file and the word 'exciting') 
+
+/var/www/html/cityPark/cpSource/cityparksf.com/about-us/services/parking-broker/page.php:<p>As a San Franciscan, our Parking Broker knows the ins and outs of this vibrant and exciting city; the famous sights and sounds, the latest and most popular events and destinations, and most importantly, where to park at our 80 City Park locations throughout the San Francisco Bay Area.</p>
+/var/www/html/cityPark/cpSource/sfparkinginc.com/about-us/services/parking-broker/page.php:<p>As a San Franciscan, our Parking Broker knows the ins and outs of this vibrant and exciting city; the famous sights and sounds, the latest and most popular events and destinations, and most importantly, where to park at our 80 City Park locations throughout the San Francisco Bay Area.</p>

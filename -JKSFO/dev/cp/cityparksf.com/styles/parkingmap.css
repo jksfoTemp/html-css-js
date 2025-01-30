@@ -1,0 +1,21 @@
+
+
+.etabs .tab {
+    border: none;
+}
+.etabs .tab a {
+    color: #333;
+    padding: 0 6px;
+    text-decoration: none !important;
+}
+
+div.garage-address {
+    float: left;
+}
+
+div.garage-picture {
+    width: 150px;
+    height: 120px;
+    float: right;
+
+}

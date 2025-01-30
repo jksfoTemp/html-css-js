@@ -1,0 +1,33 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Example</title>
+  </head>
+  <body ng-app="ViewExample">
+ 	<p>See info about <a href="#dogs">dogs</a> or a
+	<a href="#cats">cats</a></p>
+	<div ng-view>
+	</div>
+	<script src="js/angular.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script>
+	angular.module('ViewExample', ['ngRoute'])
+		.config( ['$routeProvider', function($routeProvider) {
+			$routeProvider
+				.when('/dogs', {
+					templateUrl: 'partials/dog.html'
+				})
+				.when('/cats', {
+					templateUrl: 'partials/cat.html'
+				})
+				.otherwise({
+					redirectTo: '/dogs'
+				});
+		
+		}]);	
+	</script>
+  </body>
+</html>

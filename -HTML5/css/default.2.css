@@ -1,0 +1,38 @@
+body {
+    color: blue;
+}
+
+/* note no space between the psuedo-class and the parenthesis */ 
+/* p:nth-child(2) { */
+
+/*
+p:nth-child(odd) {
+    color: green;
+}
+
+p:nth-child(even) {
+    color: purple;
+}
+*/
+
+/* mod every forth row 
+p:nth-child(4n) {
+    color: purple;
+}
+*/
+
+/* mod every forth row starting at the first 
+p:nth-child(4n+1) {
+    color: purple;
+}
+*/
+
+/* affect everything */
+* {
+    color: brown;   
+}
+
+:not(.child0){
+    color: red;
+}
+

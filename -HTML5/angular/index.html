@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AngularJS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="stylesheet" href="https://reset5.googlecode.com/hg/reset.min.css"> -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron ">
+            <h2><a href="http://www.w3schools.com/angular/angular_intro.asp">AngularJS</a></h2>
+        </div>
+
+        <p></p>
+        <h1>Note: watch the protocols on the includes</h1>
+        <h3>numbers, strings, objects and arrays; repeat, expressions, directives, 
+        controllers, filters</h3>
+        <div data-ng-app="" data-ng-init="firstName='John';lastName='Doe'; 
+                quantity=10;cost=5;
+                person={firstName:'Larry',lastName:'Barry'};
+                points=[1,15,19,2,40];
+                names=[
+                {name:'Jani',country:'Norway'},
+                {name:'Hege',country:'Sweden'},
+                {name:'Kai',country:'Denmark'}]" data-ng-controller="personController">
+
+            <p>The name is <span data-ng-bind="firstName"></span>
+            </p>
+
+            <p>My first expression: {{ 5 + 5 }}</p>
+
+            First Name:
+            <input type="text" data-ng-model="firstName">
+            <br> Last Name:
+            <input type="text" data-ng-model="lastName">
+            <br>
+            <br/> Full Name: {{firstName + " " + lastName}}
+            <br/> Full Name (Controller Method): {{fullName();}}
+            <br/> or <span data-ng-bind="quantity * cost"></span> .
+
+            <p>The name is {{ person.lastName }}</p>
+
+            <p>The points are {{ points[2] }}</p>
+
+            <ul>
+                <li ng-repeat="x in points">
+                    {{ x }}
+                </li>
+            </ul>
+
+            <ul>
+                <li ng-repeat="x	in names">
+                    {{ x.name + ', ' + x.country }}
+                </li>
+            </ul>
+
+        </div>
+        <hr />
+        <H4>Filters</H4>
+
+        <div ng-app="" ng-controller="personController">
+
+            <p>The last name is {{ lastName | uppercase }}</p>
+            <p>The first name is {{ firstName | lowercase }}</p>
+            <p>Total = {{ (quantity * cost) | currency }}</p>
+            
+            <p>The last name is {{ lastName | uppercase }}</p>
+
+        </div>
+
+    <script src="../js/angularTuteController.js"></script>
+
+    </div>
+</body>
+
+</html>
