@@ -1,0 +1,30 @@
+
+/* 
+https://stackoverflow.com/questions/3341485/how-to-make-a-html-page-in-a4-paper-size-pages
+*/
+
+@page {
+    size: 7in 9.25in;
+    margin: 27mm 16mm 27mm 16mm;
+}
+
+h1{
+    color: black;
+}
+
+@media print {
+    body{
+        width: 21cm;
+        height: 29.7cm;
+        margin: 30mm 45mm 30mm 45mm; 
+        /* change the margins as you want them to be. */
+   } 
+}
+
+div.chapter, div.appendix {
+    page-break-after: always;
+}
+
+div.titlepage {
+    page: blank;
+}
