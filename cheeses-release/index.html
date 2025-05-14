@@ -1,0 +1,141 @@
+<!--
+https://www.startpage.com/do/search?q=dog
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ha</title>
+  <!-- 
+    TODO: break out CSS and JS into separate files
+    TODO: fullscreen still not working
+    Because I always forget the syntax
+    <link rel="stylesheet" href="fooCSS/foo.css">
+    <script src="fooScript/foo.js"></script>
+  -->
+  <style>
+    /* Center all content flexbox */
+    :root {
+      --myTextColor: green;
+      --myBackColor: black;
+      --myFont: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      --myFontSize: 12;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      /* think about using CSS grid instead */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: var(--myFont);
+      background-color: var(--myBackColor);
+      color: var(--myTextColor);
+      text-align: center;
+    }
+
+    #dBox1 {
+      color: var(--myTextColor);
+      position: absolute;
+      height: 400px;
+      width: 600px;
+      border: green dotted 1px;
+      /* margin-top: 200px; / * got tired of fighting vertical center -> CSS Grid */
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+    .centerText{
+      text-align: center;
+      min-width: 200px;
+      font-family: var(--myFont);
+      font-size: var(--myFontSize);
+    }
+    #mirrorText{
+      border-bottom: blue solid 1px;
+      padding-left: 3px;
+      margin-left: 2px;
+      display: inline-block;
+      min-width: 400px;
+    }
+
+    /* https://stackoverflow.com/questions/7179535/set-window-to-fullscreen-real-fullscreen-f11-functionality-by-javascript */
+    *:fullscreen
+    *:-ms-fullscreen,
+    *:-webkit-full-screen,
+    *:-moz-full-screen {
+      overflow: auto !important;
+    }
+
+  </style>
+  <script>
+    function myInit() {
+      document.getElementById('myInput').focus();
+      /* https://stackoverflow.com/questions/7179535/set-window-to-fullscreen-real-fullscreen-f11-functionality-by-javascript */
+      toggleFullScreen(document.body);
+    }
+  </script>
+</head>
+<body onload="myInit();" onclick="fullScreen(document.body); myInit(); ">
+  <div id="dBoxNotUsed">
+    <h1><div id="dMyTime"></div></h1>
+    <h2><span id="dMyDate"></span></h2>
+    <input id="myInput"  class="centerText" type="text"></input>
+    <p></p>
+    <span id="mirrorText" class="centerText"></span>
+    <br>
+    <!-- <input type="button" value="toggle" onclick="fullScreen(document.body)"> -->
+  </div>
+
+  <script>
+    const searchEng = "https://www.startpage.com/sp/search?query=";
+    document.addEventListener('keyup', (event) => {
+      if (event.key === 'Enter') {
+        var foo = document.getElementById('myInput').value;
+        var cleanerString = foo.replace(/ /g, '&nbsp;');
+        document.getElementById('mirrorText').innerText = searchEng + cleanerString;
+        document.location = searchEng + foo;
+      }
+    });
+    function updateClock() {
+      const now = new Date();
+      const myTime = now.toLocaleTimeString('en-US', { hour12: false });
+      const myDate = now.toLocaleDateString('en-US');
+      document.getElementById('dMyTime').innerText = myTime;
+      document.getElementById('dMyDate').innerHTML = myDate; // yes, I could comment this out ;
+    }
+    // <!-- Thank you - full screen! -->
+    // ## https://stackoverflow.com/questions/7495373/how-to-make-browser-full-screen-using-f11-key-event-through-javascript
+    function fullScreen(elem) {
+      // ## The below if statement seems to work better ## if ((document.fullScreenElement && document.fullScreenElement !== null) || (document.msfullscreenElement && document.msfullscreenElement !== null) || (!document.mozFullScreen && !document.webkitIsFullScreen)) {
+      if ((document.fullScreenElement !== undefined && document.fullScreenElement === null) || (document.msFullscreenElement !== undefined && document.msFullscreenElement === null) || (document.mozFullScreen !== undefined && !document.mozFullScreen) || (document.webkitIsFullScreen !== undefined && !document.webkitIsFullScreen)) {
+          if (elem.requestFullScreen) {
+              elem.requestFullScreen();
+          } else if (elem.mozRequestFullScreen) {
+              elem.mozRequestFullScreen();
+          } else if (elem.webkitRequestFullScreen) {
+              elem.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+          } else if (elem.msRequestFullscreen) {
+              elem.msRequestFullscreen();
+          }
+      } else {
+          if (document.cancelFullScreen) {
+              document.cancelFullScreen();
+          } else if (document.mozCancelFullScreen) {
+              document.mozCancelFullScreen();
+          } else if (document.webkitCancelFullScreen) {
+              document.webkitCancelFullScreen();
+          } else if (document.msExitFullscreen) {
+              document.msExitFullscreen();
+          }
+      }
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+    /* goFullScreen(); Eh. Needs user input
+    fullScreen(document.body); */
+    // function hi2() { alert('0666'); }
+  </script>
+
+  </body>
+</html>
